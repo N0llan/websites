@@ -1,0 +1,3 @@
+<tr><td>Nollan</td><td>Första inlägget i forumet. Du är välkommen hit med dina funderingar eller ifall du bara vill skriva av dig. Kom dock ihåg att <b> DU </b> står för det du skriver!</td><td class="td1">IP: 31.208.48.109<br>TID: 2016-02-29 16:56</td></tr>
+<tr><td>Nollan</td><td>Sitter och funderar på ifall jag är klar med hemsidan eller ifall det behövs mer. Lämna gärna ett inlägg här vad du tycker, eller skriv till mig direkt på Kontakta admin sidan!</td><td class="td1">IP: 31.208.48.109<br>TID: 2016-03-01 10:09</td></tr>
+<tr><td>Popp3</td><td>TJEEEEEEEEEEENNAAAA</td><td class="td1">IP: 83.255.112.68<br>TID: 2016-03-03 14:52</td></tr>

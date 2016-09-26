@@ -1,0 +1,178 @@
+/**
+ * Daniel Jennebo
+ * Programvaruteknik 2014
+ * Webbprogrammering
+ * 2016-03-05
+ * Filen hanterar stylen på hemsidan
+ */
+
+/*Formatering för body.*/
+body { background-image: url("images/CS_GO_Background.jpg");/*Bakgrundsbild*/
+		background-position: center;/*Position av bakgrundsbild*/
+		background-color: black;/*Färg på bakgrunden*/
+		background-size: 100%;/*Storlek på bakgrunden*/
+		background-attachment: fixed;/*Sätter så att bilden är fast*/
+		background-repeat: no-repeat;/*Repeterar inte bilden*/
+		height: 100%;/*Höjd på body*/
+		margin: 0;}/*Marginalen*/
+
+/*Formatering av header*/
+header { text-align:center;/*centrera texten*/
+		color:white;}/*Font färg vit*/
+		
+/*Formatering av image i headern*/
+header img {max-height:80px;/*Max höjd*/
+			max-width:100%;}/*Max bredd*/
+		
+/*Formatering för input CLASS button*/
+input.button	{background-color: #ff640a;/*Bakgrundsfärg*/
+   				 color: #FFFFFF;/*Font färg*/
+   				 padding: 14px 25px;/*Padding*/
+   				 text-align: center;/*Centrera text*/
+   				 border: none;/*Ingen border*/
+  				 font-size: 16px;/*Text storlek*/
+  				 margin-right:10px;/*Marginal höger*/
+  				 margin-left: 10px;}/*Marginal vänster*/
+ 
+/*Formatering för input CLASS sbutton*/			 
+input.sbutton	{background-color: black;/*bakgrundsfärg*/
+				 color: #FFFFFF;
+				 text-align: center;
+				 border:1px solid white;
+				 font-size: 13px;
+				 margin-right:10px;
+				 margin-left: 10px;}
+
+/*Formatering för input*/
+input	{border: 1px solid orange;}
+
+/*Formatering för div CLASS mid*/
+div.mid	{ 	margin-left: auto;
+					margin-right:auto;
+					margin-top: 10%;
+					width: inherit;
+					height: 500px;}
+
+/*Formatering för image i classen mid (div)*/		
+div.mid img {margin-top: 200px;}
+
+/*Formatering för CLASSEN wrapper (div)*/
+div.wrapper { background: rgba(0,0,0,0.8);/*bakgrundsfärg med opacity*/
+					width: 70%; 
+					text-align:center;
+					top: 0px;
+					min-height: 1300px;
+					margin-left: auto;
+					margin-right: auto; 
+					color: white;}	
+					
+/*Formatering för CLASSEN info (div)*/				
+div.info	{border:1px solid orange;
+				width:350px;
+				margin-left:auto;
+				margin-right:auto;
+				font-size:14px;}
+
+/*Formatering för textarea*/					
+textarea			{width:400px;
+					height:100px;
+					border:3px solid orange;}
+
+/*Formatering för td CLASS td1*/
+td.td1 {padding:3px;
+			border:1px solid white;
+			width:160px;}
+
+/*Formatering för mailto link*/
+a[href^="mailto"]	{color:orange;}
+
+/*Formatering för table*/
+table {background: rgba(0,0,0,0.65);
+		margin-left:auto;
+		margin-right:auto;
+		border-collapse:collapse;
+		width: 700px;
+		margin-top: 20px;}
+
+/*Formatering för td*/
+td	{border:1px solid white;
+	border-collapse:collapse;}
+	
+/*Formatering för img CLASS setting*/				
+img.setting	{max-height: 40px;
+			right:5px;
+			margin-top:5px;
+			position: fixed;}
+					
+/*Formatering för down (div)*/
+div.down {width:100%;
+				position: fixed;
+				bottom:50px;
+				font-size:70%;}
+
+/*Formatering för p CLASS p1*/
+p.p1 {color: red;
+		display:inline;}
+/*Formatering för p CLASS p2*/	
+p.p2 {display:inline;}
+
+/*Formatering för footer*/
+footer {text-align: center; 
+		height: 50px;
+		font-size:80%;
+		color:white;
+		overflow:hidden;
+		width:100%;
+		position: fixed;
+		bottom:0px;
+		background-color: black;
+		display: inline;}
+		
+/*Formatering för img CLASS right i footer*/
+footer img.right {height: 100%;
+			float: right;}
+			
+/*Formatering för img CLASS left i footer*/
+footer img.left {height: 100%;
+			float: left;}
+			
+/*Formatering för p CLASS right*/
+p.right	{display: inline;
+			text-align:right;
+			float: right;
+			bottom:0px;
+			margin: 3px;
+			width: 100px;
+			color: white;}
+			
+/*Formatering för p CLASS left*/			
+p.left	{display: inline;
+			text-align:left;
+			float: left;
+			bottom:0px;
+			margin: 3px;
+			width: 100px;
+			color:white;}
+
+/*Formatering för p i footer*/	
+footer p {margin: 0px;}
+
+
+@media print{												/*Formatering för utskrift*/
+    p{
+        font-family: georgia, serif;						/*Sätter font familj*/
+        font-size: 10px;									/*Sätter font storlek*/
+        color: black;											/*Sätter färg*/
+    }
+    body{
+        background-color: white;
+    }
+    div{
+        background-color: white;
+    }
+}
+
+@media handheld and (max-width: 480px){						/*Formatering för handhållna enheter max bredd på 480px*/
+    #doc {width: 480px;}									/*Sätter dokument till 480px*/
+}
+
