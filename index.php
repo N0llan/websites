@@ -1,5 +1,5 @@
 <?php
-    phpinfo();
+    
 ?>
 <!DOCTYPE HTML>
 <html lang="eng">
